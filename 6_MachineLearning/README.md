@@ -2,7 +2,37 @@
 
 [Table of Contents](https://crazybiocomputing.blogspot.com/2018/10/machine-learning-toc.html)
 
-## Dataset
+## 6.1. Install
+
+In your folder `ImageJ/plugins`, create a sub-folder entitled `crazybio` and a sub-sub-folder `ML`.
+Copy the various scripts and paste them in `ImageJ/plugins/crazybio/ML`
+For testing the sources, create a folder `MyScripts` in `ImageJ/plugins` and create a new file with the extension `.js` and start writing your own code.
+
+## 6.2. Using the ML programs
+
+> **Note**: The following JavaScript source files, only work if ImageJ runs with a JVM (_Java Virtual Machine_) version 10 or 11.
+
+At the beginning of your script, add the following lines to import the various source files
+
+```javascript
+/**
+ * <Add a Title>
+ * <Add your name>
+ * <Add the date>
+ */
+ 
+'use strict';
+ 
+////////////// IMPORTS //////////////
+
+// Import nashorn polyfill and various ML programs
+const IJ_PLUGINS = IJ.getDir('plugins');
+load(`${IJ_PLUGINS}/crazybio/ML/nashorn_polyfill.js`);
+load(`${IJ_PLUGINS}/crazybio/ML/common.js`);
+load(`${IJ_PLUGINS}/crazybio/ML/knn.js`);
+```
+
+## 6.3. Dataset
 
 
 [Measurements](https://gist.github.com/jeesay/35adc13ca8ae658d25a43b342334eee4)
