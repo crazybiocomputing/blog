@@ -77,5 +77,7 @@ console.info = function() {
 const toArrayJS = (java_array) => Java.from(java_array);
 
 
-// Function range(..) equivalent to the Python range(..)
+/**
+ * Function range(..) equivalent to the Python range(..)
+ */
 const range = (start,stop,step=1) => Array.from( {length: Math.floor((stop - start)/step)},(_,i) => start + i*step);
