@@ -13,6 +13,14 @@ function euclidean(u,v) {
   return Math.sqrt(sum);
 }
 
+const squaredEuclidean = (v1,v2) => {
+  let sum = 0.0;
+  for (let i=0; i < v1.length; i++) {
+    sum += (v1[i] - v2[i])*(v1[i] - v2[i]);
+  }
+  return sum;
+}
+
 function accuracy(u,v) {
   let score = 0;
   for (let i = 0; i < u.length;i++) {
