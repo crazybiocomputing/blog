@@ -1,9 +1,8 @@
 /*
  * Implementing threshold
  * Jean-Christophe Taveau
- * 2017-10-24
+ * 2017-10-24 updated 2021/10/20
  */
-
 
 'use strict';
 
