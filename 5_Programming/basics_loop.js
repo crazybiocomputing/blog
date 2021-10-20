@@ -9,6 +9,7 @@
 // Import
 const IJ_PLUGINS = IJ.getDir('plugins');
 load(`${IJ_PLUGINS}/crazybio/nashorn_polyfill.js`);
+load(`${IJ_PLUGINS}/crazybio/common.js`);
 
 // Loop while
 let i = 0;
@@ -35,9 +36,6 @@ for (let i = 0; i < 10; i++) {
 let arr=[0,1,2,3,4,5,6,7,8,9];
 let output = arr.map( v => v + 2);
 console.log(output);
-
-// Using function map(..) with a function range(..) for generating the Array
-const range = (start,stop,step=1) => Array.from( {length: Math.floor((stop - start)/step)},(_,i) => start + i*step);
 
 let output2 = range(0,10).map(v => v + 2) 
 console.log(output2);
