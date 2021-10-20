@@ -1,4 +1,4 @@
-# blog
+# CrazyBiocomputing Blog
 
 This repository contains all the JavaScript code I wrote in the blog [CrazyBioComputing](https://crazybiocomputing.blogspot.com).
 
