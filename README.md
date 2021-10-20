@@ -13,8 +13,10 @@ This repository contains all the JavaScript code I wrote in the blog [CrazyBioCo
 
 ### Install the JavaScript source files
 
-- In your folder `ImageJ/plugins`, create a sub-folder entitled `crazybio` and create a sub-sub-folder corresponding to the various sections of the blog.
-- For testing the sources, I suggest you to create a folder entitled `MyScripts` in `ImageJ/plugins` and create a new file with the extension `.js` for writing your own code.
+- In your folder `ImageJ/plugins`, create a sub-folder entitled `crazybio` 
+- Copy and paste the two files `nashorn_polyfill.js` and `utils.js`
+- For the code contained in each section of the blog, I advise you to create a sub-sub-folder. For example, `ImageJ/plugins/crazybio/ML` for Machine Learning. 
+- For testing the sources, I suggest you to create another folder entitled `MyScripts` in `ImageJ/plugins` and create a new file with the extension `.js` for writing your own code.
 
 ### JavaScript version
 
