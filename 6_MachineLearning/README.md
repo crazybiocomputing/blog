@@ -40,4 +40,32 @@ load(`${IJ_PLUGINS}/crazybio/ML/knn.js`);
 ## 6.3. Dataset
 
 
+Each shape are labeled according to their sides number as follows:
+- 0: circle
+- 3: triangle
+- 4: square
+
+Here are the labels of the 246 shapes...
+
+```javascript
+const labels = [
+4,0,0,3,4,0,4,0,3,3,
+4,3,3,0,4,3,3,4,3,4,
+4,4,0,4,3,0,0,3,3,4,
+0,4,0,3,0,0,4,4,4,3,
+0,4,3,4,4,3,3,3,3,3,
+0,0,3,3,0,3,0,4,3,0,
+0,4,0,3,0,3,4,4,4,4,
+0,3,3,4,4,3,3,4,4,4,
+0,3,4,3,4,3,0,0,4,3,
+0,3,0,3,4,3,4,0,4,3,
+3,4,4,0,3,4,0,4,4,4,
+0,0,4,3,3,0,3,3,3,0,
+4,4,4,0,3,4,3,0,4,4,
+3,0,0,4,0,4,3,3,4,4,
+0,0,4,4,4,0,3,4,3,4,
+3
+];
+```
+
 [Measurements](https://gist.github.com/jeesay/35adc13ca8ae658d25a43b342334eee4)
