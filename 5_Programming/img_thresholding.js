@@ -4,6 +4,15 @@
  * 2017-10-24
  */
 
+
+'use strict';
+
+// Import
+const IJ_PLUGINS = IJ.getDir('plugins');
+load(`${IJ_PLUGINS}/crazybio/nashorn_polyfill.js`);
+load(`${IJ_PLUGINS}/crazybio/utils.js`);
+
+
 // First version
 function threshold(imp,value) {
   let ip = imp.getProcessor();
