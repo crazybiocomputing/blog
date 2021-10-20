@@ -4,13 +4,18 @@
 
 ## 6.1. Install
 
+### Install the JavaScript source files
+
 In your folder `ImageJ/plugins`, create a sub-folder entitled `crazybio` and a sub-sub-folder `ML`.
 Copy the various scripts and paste them in `ImageJ/plugins/crazybio/ML`
 For testing the sources, create a folder `MyScripts` in `ImageJ/plugins` and create a new file with the extension `.js` and start writing your own code.
 
-## 6.2. Using the ML programs
+### JavaScript version
 
-> **Note**: The following JavaScript source files, only work if ImageJ runs with a JVM (_Java Virtual Machine_) version 10 or 11.
+All the codes are written in a "modern" JavaScript version termed "JS2015+" or "JS ECMAScript". However, this version was partially implemented in the JDK (Java Development Kit) version 10 and 11 with a JS engine called "Nashorn". This engine was deprecated in the JDK version > 12, unfortunately...
+Thus, to run these JavaScript files, you need to install and run ImageJ with a JVM (_Java Virtual Machine_) version 10 or 11.
+
+## 6.2. Using the ML programs
 
 At the beginning of your script, add the following lines to import the various source files
 
