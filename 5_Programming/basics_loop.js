@@ -1,3 +1,8 @@
+/**
+ * Exploring loops
+ * Jean-Christophe Taveau
+ * 2019/10/05
+ */
 
 'use strict';
 
@@ -20,7 +25,7 @@ do {
 }
 while (i < 10);
 
-// Loop for
+// Loop for ★★★
 for (let i = 0; i < 10; i++) {
   j = i + 2;
   console.log(j);
