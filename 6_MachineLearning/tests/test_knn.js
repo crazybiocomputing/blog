@@ -11,8 +11,8 @@
 
 // Import nashorn polyfill
 const IJ_PLUGINS = IJ.getDir('plugins');
-load(`${IJ_PLUGINS}/crazybio/ML/nashorn_polyfill.js`);
-load(`${IJ_PLUGINS}/crazybio/ML/common.js`);
+load(`${IJ_PLUGINS}/crazybio/nashorn_polyfill.js`);
+load(`${IJ_PLUGINS}/crazybio/common.js`);
 load(`${IJ_PLUGINS}/crazybio/ML/knn.js`);
 
 // labels
