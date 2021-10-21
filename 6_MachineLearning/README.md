@@ -33,7 +33,7 @@ At the beginning of your script, add the following lines to import the various s
 
 // Import nashorn polyfill and various ML programs
 const IJ_PLUGINS = IJ.getDir('plugins');
-load(`${IJ_PLUGINS}/crazybio/ML/nashorn_polyfill.js`);
+load(`${IJ_PLUGINS}/crazybio/nashorn_polyfill.js`);
 load(`${IJ_PLUGINS}/crazybio/ML/common.js`);
 load(`${IJ_PLUGINS}/crazybio/ML/knn.js`);
 ```
