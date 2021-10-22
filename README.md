@@ -24,7 +24,7 @@ All the codes are written in a "modern" JavaScript version termed "JS2015+" or "
 
 Thus, to run these JavaScript files, you need to install and run ImageJ with a JVM (_Java Virtual Machine_) version 10 or 11.
 
-1. The best option is to download the "Platform Independent" ImageJ [Link](https://imagej.nih.gov/ij/download.html).
+1. The best option is to download the "Platform Independent" ImageJ [[Link](https://imagej.nih.gov/ij/download.html)].
 2. Then, go to the website [OpenJDK](https://openjdk.java.net/), choose the [archive versions](https://jdk.java.net/archive/) and download version 11.
 3. The last tricky part &mdash; specially if you have other JDKs in your computer &mdash; is to modify the Java path for ImageJ to be sure that it runs on the good (version 11) Java Virtual Machine.
 
